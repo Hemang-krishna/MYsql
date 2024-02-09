@@ -20,7 +20,7 @@ select * from students;
 1 create
 2 drop
 3 Alter
-4 trun case
+4 trun cate
 5 rename
 *DML
 1 insert
@@ -49,3 +49,7 @@ select 5 !=5 as result;
 select 5 <> 5 as result;
 select 5+null as result;
 select 5=null as result;
+
+create database practicedb6;
+use practicedb6;
+drop database practicedb6;
